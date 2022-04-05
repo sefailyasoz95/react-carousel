@@ -12,6 +12,8 @@ npm install @sefailyasoz/react-carousel # or yarn add @sefailyasoz/react-carouse
 
 ### Example
 
+You can see the example output from this link: https://ibb.co/4sh1HZH
+
 The Carousel component takes one neseccary prop which is data. This data must be an array of objects and this objects' type is as follows:
 
 > {
