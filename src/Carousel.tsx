@@ -7,7 +7,7 @@ type Props = {
   size?: 'normal' | 'large';
   headerTextType?: 'black' | 'white';
   subTextType?: 'black' | 'white';
-  animationDuration?: 1000 | 2000 | 3000 | number;
+  animationDuration?: 1 | 2 | 3 | number;
   leftItem?:
     | React.ReactHTMLElement<HTMLElement>
     | React.ReactNode
