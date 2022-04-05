@@ -24,7 +24,7 @@ export const Carousel = ({
   size = 'normal',
   headerTextType = 'black',
   subTextType = 'white',
-  animationDuration = 3000,
+  animationDuration = 3,
   leftItem,
   rightItem,
 }: Props) => {
@@ -35,7 +35,7 @@ export const Carousel = ({
     autoPlay &&
       setTimeout(() => {
         handleNextSlide(true);
-      }, animationDuration);
+      }, animationDuration * 1000);
   }, [activeItem]);
   const handleNextSlide = (increase: boolean) => {
     if (increase) {
